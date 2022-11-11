@@ -2,7 +2,7 @@ import subprocess
 import os
 
 print(os.path.abspath(os.curdir))
-respone = subprocess.check_output("py /project/target/universe.py").decode('utf-8').rstrip()
+respone = subprocess.check_output("py project/target/universe.py").decode('utf-8').rstrip()
 if respone == '1':
     print('TECHIO> success true')
 else:
