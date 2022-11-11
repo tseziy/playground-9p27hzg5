@@ -2,3 +2,8 @@ title: KonturDevBattle
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
+
+projects:
+  python:
+    root: /battle1-project
+    runner: python:3
