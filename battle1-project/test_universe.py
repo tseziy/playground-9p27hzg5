@@ -1,3 +1,3 @@
 import universe
 
-print ('TECHIO> success false')
+print('TECHIO> success false')
