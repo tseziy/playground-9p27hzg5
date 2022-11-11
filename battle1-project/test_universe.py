@@ -1,10 +1,8 @@
 import subprocess
-import os
 
-script_path = os.path.join('battle1-project', 'universe.py')
-print('__________________ ' + script_path)
-respone = subprocess.check_output("py " + (script_path)).decode('utf-8').rstrip()
+respone = subprocess.check_output("py universe.py").decode('utf-8').rstrip()
 if respone == '1':
     print('TECHIO> success true')
 else:
     print('TECHIO> success false')
+    
