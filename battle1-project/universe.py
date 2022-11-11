@@ -1,6 +1,6 @@
-def respone():
-    respone = None
-    return respone
+import sys
+import math
 
-if __name__ == '__main__':
-    respone()
+# Write your code here.
+# Click on "RUN" to execute it
+print("Hello World!")
