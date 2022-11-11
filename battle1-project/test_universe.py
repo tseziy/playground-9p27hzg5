@@ -1,3 +1,7 @@
-import universe
+import subprocess
 
-print('TECHIO> success false')
+respone = subprocess.check_output("py battle1-project\\universe.py").decode('utf-8').rstrip()
+if respone == '1':
+    print('TECHIO> success true')
+else:
+    print('TECHIO> success false')
