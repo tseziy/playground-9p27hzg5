@@ -6,4 +6,4 @@ plan:
 projects:
   python:
     root: /battle1-project
-    runner: python:3
+    runner: onescript-builder:gcc
