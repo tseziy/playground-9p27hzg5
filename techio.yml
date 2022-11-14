@@ -6,4 +6,6 @@ plan:
 projects:
   oscript:
     root: /battle1-project
-    runner: onescript-builder:gcc
+    runner: 
+      name: onescript-builder
+      version: gcc
